@@ -2,7 +2,7 @@ body {
   
     margin: 0;
     font-family: 'Georgia', serif;
-    background-color: #eceae8; /* ✅ Couleur de fond uniforme */
+    background-color: #eceae8; 
     color: #000;
 
 .header {
@@ -17,7 +17,10 @@ body {
 .logo {
     font-size: 2rem;
     font-weight: bold;
-    font-family: 'Georgia', serif;
+    font-family: "Arimo", sans-serif;
+  
+}
+    
 }
 
 .nav a {
@@ -80,7 +83,6 @@ body {
     font-family: 'Georgia', serif;
 }
 
-}
 
 .text-block {
     flex: 2;
@@ -108,14 +110,13 @@ body {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: white;
-    background-color: #edebe9; /* Couleur de base */
-    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #edebe9; 
     transition: background-color 0.3s ease;
 }
 
 .btn-acheter:hover {
-    background-color: #f6ed9f; /* Couleur au survol */
+    background-color: #f6ed9f; 
 
     
 }
@@ -251,9 +252,9 @@ body {
 }
 .trait-separateur {
   border: none;
-  border-top: 1px solid #000000; /* Couleur et épaisseur du trait */
-  margin: 40px auto; /* Espacement autour du trait */
-  width: 100%; /* ou 80% si tu veux un trait plus court */
+  border-top: 1px solid #000000; 
+  margin: 40px auto; 
+  width: 100%; 
   }
 
 .newsletter-section {
@@ -359,11 +360,11 @@ body {
   justify-content: space-between;
   padding: 60px 80px;
   gap: 60px;
-  background-color: #000000; /* Fond vert foncé */
+  background-color: #000000; 
   color: white;
 }
 
-/* Partie gauche avec l'image */
+
 .contenu-gauche {
   flex: 1;
 }
@@ -375,13 +376,13 @@ body {
   border-radius: 8px;
 }
 
-/* Partie droite avec le texte */
+
 .contenu-droit {
   flex: 1;
   max-width: 550px;
 }
 
-/* Titre en police Fraunces */
+
 .titre-fraunces {
   font-family: 'Fraunces', serif;
   font-size: 3.5rem;
@@ -389,14 +390,14 @@ body {
   line-height: 1.1;
 }
 
-/* Paragraphe descriptif */
+
 .contenu-droit p {
   font-size: 1.5rem;
   line-height: 1.6;
   margin-bottom: 25px;
 }
 
-/* Lien "En savoir plus" */
+
 .lien {
   color: #000;
   font-weight: bold;
@@ -418,7 +419,7 @@ body {
   max-width: 600px;
 }
 
-/* TITRE */
+
 .titre-fraunces {
   font-family: 'Fraunces', serif;
   font-size: 4rem;
@@ -428,7 +429,7 @@ body {
   color: #000;
 }
 
-/* PARAGRAPHES */
+
 .contenu-droit p {
   font-family: 'Inter', sans-serif;
   font-size: 1.5rem;
@@ -436,7 +437,7 @@ body {
   margin-bottom: 25px;
 }
 
-/* LIEN */
+
 .lien {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
@@ -460,8 +461,8 @@ body {
 
 .carte-savon img {
   width: 100%;
-  height: 250px; /* Force la même hauteur */
-  object-fit: cover; /* Recadre l’image proprement */
+  height: 250px; 
+  object-fit: cover; 
   display: block;
 }
 
@@ -473,7 +474,7 @@ body {
   color: black;
 }
 
-/* Pour forcer le bouton en dessous avec marge */
+
 .bouton-savons {
   display: inline-block;
   margin: 40px auto 0;
@@ -494,7 +495,7 @@ body {
   color: #000;
 }
 
-/* Centrer correctement tous les éléments */
+
 .section-savons .cartes-container {
   display: flex;
   justify-content: center;
@@ -506,7 +507,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 60px 80px;
-  background-color: #f5f1ec; /* ou blanc cassé */
+  background-color: #f5f1ec; 
 }
 
 .hero-text h1 {
@@ -523,7 +524,7 @@ body {
   display: block;
 }
 nav a {
-  text-decoration: none;  /* pas souligné de base */
+  text-decoration: none;  
   color: black;
   margin: 0 15px;
   font-weight: bold;
