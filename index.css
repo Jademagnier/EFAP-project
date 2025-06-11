@@ -1,0 +1,534 @@
+body {
+  
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #eceae8; /* ✅ Couleur de fond uniforme */
+    color: #000;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+.nav a {
+    margin: 0 0.8rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.icons {
+    font-size: 1rem;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+.text-block {
+    flex: 1;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.section-bouton {
+    padding: 2rem;
+}
+
+.btn-acheter {
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.section-visuel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-visuel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section-texte {
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+}
+
+.text-block {
+    flex: 2;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #111;
+}
+
+.image-block {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image-block img {
+    max-width: 90%;      
+    height: auto;
+    border-radius: 0.5rem;
+}
+.btn-acheter {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #edebe9; /* Couleur de base */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-acheter:hover {
+    background-color: #f6ed9f; /* Couleur au survol */
+
+    
+}
+
+.idea-section {
+  background-color: #e7e3dc;
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.idea-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.idea-text {
+  flex: 1 1 500px;
+}
+
+.idea-text h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #111;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 25px;
+  border: 2px solid #111;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #111;
+  color: white;
+}
+
+.idea-images {
+  flex: 1 1 600px;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.idea-images img {
+  width: 48%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #000;
+  background-color: #f0eeea;
+}
+
+.my_class_0043 {
+  background-color: #fff598;
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+}
+
+.intro-columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.column h2 {
+  margin-bottom: 0.5rem;
+}
+
+.column p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid white;
+  margin-top: 2rem;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #f0eeea;
+  align-items: center;
+}
+
+.text-block {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 2rem;
+}
+
+.text-block h1 {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.cta {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border: 2px solid #050505;
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.image-block {
+  display: flex;
+  gap: 1rem;
+}
+
+.image-block img {
+  max-width: 250px;
+  border-radius: 0.5rem;
+}
+.trait-separateur {
+  border: none;
+  border-top: 1px solid #000000; /* Couleur et épaisseur du trait */
+  margin: 40px auto; /* Espacement autour du trait */
+  width: 100%; /* ou 80% si tu veux un trait plus court */
+  }
+
+.newsletter-section {
+  background-color: #e7e3dc;
+  padding: 40px 20px;
+  border-top: 1px solid #bbb;
+  font-family: 'Inter', sans-serif;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.newsletter-image {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.newsletter-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.instagram-link {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.instagram-link a {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.newsletter-content {
+  flex: 1 1 400px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.newsletter-text {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.newsletter-form input {
+  padding: 15px;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  background: white;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.newsletter-form button {
+  padding: 15px 30px;
+  background: none;
+  border: 2px solid #111;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background: #111;
+  color: white;
+}
+
+.footer-links {
+  flex: 1 1 200px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  color: #111;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.section-nature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 60px;
+  background-color: #000000; /* Fond vert foncé */
+  color: white;
+}
+
+/* Partie gauche avec l'image */
+.contenu-gauche {
+  flex: 1;
+}
+
+.contenu-gauche img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Partie droite avec le texte */
+.contenu-droit {
+  flex: 1;
+  max-width: 550px;
+}
+
+/* Titre en police Fraunces */
+.titre-fraunces {
+  font-family: 'Fraunces', serif;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+
+/* Paragraphe descriptif */
+.contenu-droit p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Lien "En savoir plus" */
+.lien {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.2rem;
+}
+.section-nature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  background-color: #fff598;
+  background-color: ;
+  color: #000;
+}
+
+.contenu-droit {
+  flex: 1;
+  max-width: 600px;
+}
+
+/* TITRE */
+.titre-fraunces {
+  font-family: 'Fraunces', serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.1;
+  color: #000;
+}
+
+/* PARAGRAPHES */
+.contenu-droit p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* LIEN */
+.lien {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  color: #000;
+}
+
+.section-savons {
+  background-color: #f3efe9;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.carte-savon {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  width: 300px;
+}
+
+.carte-savon img {
+  width: 100%;
+  height: 250px; /* Force la même hauteur */
+  object-fit: cover; /* Recadre l’image proprement */
+  display: block;
+}
+
+.titre-savon {
+  font-family: 'Fraunces', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 15px;
+  color: black;
+}
+
+/* Pour forcer le bouton en dessous avec marge */
+.bouton-savons {
+  display: inline-block;
+  margin: 40px auto 0;
+  padding: 15px 40px;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #000000;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.bouton-savons:hover {
+  background-color: #fff598;
+  background-color: ;
+  color: #000;
+}
+
+/* Centrer correctement tous les éléments */
+.section-savons .cartes-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background-color: #f5f1ec; /* ou blanc cassé */
+}
+
+.hero-text h1 {
+  font-size: 6rem;
+  line-height: 1.1;
+  font-weight: bold;
+  font-family: serif;
+  margin: 0;
+}
+
+.hero-image img {
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
+nav a {
+  text-decoration: none;  /* pas souligné de base */
+  color: black;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
